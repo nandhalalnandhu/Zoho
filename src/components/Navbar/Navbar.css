@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #514e4e; */
+    padding: 0px 20px;
+    color: white;
+    border-bottom: 1px solid rgb(209, 204, 204);
+  }
+  
+  .logoa {
+    width: 40px;
+  }
+  .logob {
+    width: 100px;
+  }
+  .logoc {
+    width: 240px;
+  }
+  
+  .logo-totel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid rgb(225, 221, 221);
+    padding-right: 10px;
+    /* background-color: red; */
+    height: 10vh;
+  }
+  
+  .icon-divv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+    padding-left: 10px;
+  
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .end-btn {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: rgb(64, 141, 251);
+  }
+  
+  .end-btn2 {
+    background-color: rgb(240, 72, 62);
+    border: none;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 7px 10px;
+    border-radius: 5px;
+  
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      width: 150px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.mobile {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      width: 150px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.mobile {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+    .logoa {
+      width: 40px;
+    }
+    .logob {
+      width: 80px;
+    }
+    .logoc {
+      width: 150px;
+    }
+  }

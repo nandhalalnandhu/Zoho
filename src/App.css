@@ -1,0 +1,32 @@
+/* Hide scrollbar for all elements */
+*::-webkit-scrollbar {
+  display: none;
+  /* Hides the scrollbar */
+}
+
+/* Optional: Ensure content is still scrollable */
+* {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer */
+}
+
+
+
+.homeA {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 1;
+}
+
+.homeB {
+  position: absolute;
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+
+}

@@ -1,0 +1,223 @@
+/* Container for the entire page */
+.previ {
+    width: 553px;
+    /* Full A4 width */
+    min-height: 1123px;
+    /* Full A4 height */
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: #ef2d2d; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Preview Data Section */
+.PreviewDataA {
+    background-color: rgb(255, 255, 255);
+    width: 506px;
+    /* 45% of 793px */
+    height: 90vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 15px;
+    gap: 6px;
+}
+
+/* Data Section AA */
+.DataAA {
+    width: 96%;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+
+.DataAAA {
+    width: 100px;
+    /* 25% of 793px */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: rgb(40, 177, 19); */
+}
+
+.DataABB {
+    width: 297px;
+    /* 40% of 793px */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 2px 8px;
+    /* background-color: rgb(203, 20, 182); */
+}
+
+/* Font Styling */
+.DSpan-AA {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.DSpan-BB {
+    font-size: 10px;
+}
+
+/* Data Section BB */
+.DataBB {
+    width: 96%;
+    height: auto;
+
+    /* background-color: aqua; */
+}
+
+.dataBAA {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+
+    /* background-color: green; */
+}
+
+.BA-spanN {
+    font-size: 12px;
+  
+}
+
+.BB-spanN {
+    font-size: 12px;
+}
+
+/* Data Section CC */
+.DataCC {
+    width: 96%;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(156, 199, 62); */
+    /* padding: 4px; */
+}
+
+.dataBBB {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 20px;
+    gap: 2px;
+    /* background-color: blue; */
+}
+
+/* Data Section DD */
+.DataDD {
+    width: 97%;
+    height: auto;
+    border: 1px solid rgb(221, 216, 216);
+}
+
+.DataDAE {
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 0px;
+}
+
+.DataDAE th {
+    color: white;
+    font-size: 9px;
+}
+
+.DataDBB {
+    width: 96%;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.DataDBB td {
+    color: black;
+    font-size: 8px;
+    width: 10%;
+    text-align: center;
+}
+
+/* Data Section EE */
+.DataEE {
+    width: 97%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: green; */
+}
+
+.DataEAA {
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    /* background-color: aqua; */
+}
+
+.BB-spanN,
+.BC-spanNN {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.BC-spanNN{
+    background-color: rgb(224, 221, 221);
+    font-weight: 600;
+}
+
+/* Data Section FF */
+.DataFF {
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.DataFAA {
+    width: 97%;
+    /* 80% of 793px */
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.FA-spanN {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.FB-spanN {
+    font-size: 11px;
+}
+
+/* ======================================== */

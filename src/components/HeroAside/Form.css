@@ -1,0 +1,802 @@
+
+* {
+    overflow-x: hidden;
+}
+
+.formout {
+    width: 98%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.formz {
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(129, 123, 123, 0.607);
+    border-radius:5px;
+    /* margin-top: 20px; */
+
+}
+
+.form-innerA {
+    /* background-color: rgb(237, 252, 23); */
+    width: 88%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.inner-1 {
+    /* background-color: blue; */
+    width: 36%;
+    height:20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inner-2 {
+    /* background-color: rgb(7, 159, 134); */
+    width: 40%;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+
+
+.tax {
+    font-size: 20px;
+    width: 80%;
+    min-width: 50%;
+    border: none;
+    height: 60px;
+
+    display: flex;
+   justify-content: center;
+    align-items: end;
+    text-align: end;
+
+}
+
+.tax::placeholder {
+    text-align: end;
+    color: rgb(36, 35, 35);
+
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.form-innerB {
+    /* background-color: rgb(237, 252, 23); */
+    width: 89%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.form-innerB input {
+    /* background-color: rebeccapurple; */
+    border: none;
+    width: 40%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px 10px; */
+    
+    color: #636060;
+
+}
+
+.form-innerB input::placeholder {
+    font-size: 14px;
+    color: #636060;
+}
+
+.form-innerB select {
+    /* background-color: aqua; */
+    border: none;
+    width: 40%;
+    /* text-align: left; */
+    padding: 5px 0px;
+    font-size: 14px;
+    color: #636060;
+}
+
+
+
+.file-inn {
+    cursor: pointer;
+}
+
+.file {
+    /* background-image: url(../assets/file-img.png); */
+    /* background-color: red; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(251, 252, 255);
+    /* Optional: ensures the image doesn't repeat */
+
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(224, 215, 215);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file input[type="file"] {
+    opacity: 0;
+}
+
+.upload-inst {
+    width: 110px;
+    height: 50px;
+}
+
+.form-innerB {
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    gap: 3px;
+}
+
+.upload-preview {
+    width: 80px;
+    /* Removed quotes */
+    height: 80px;
+    /* Removed quotes */
+    object-fit: cover;
+    /* Corrected casing */
+    cursor: pointer;
+    border: 0px solid #ccc;
+    /* Closed the quotation for color */
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.form-innerC {
+    /* background-color: rgb(206, 146, 16); */
+    width: 97%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-innerC input {
+    border: none;
+    width: 100%;
+    height: 3.5vh;
+    font-size: 13px;
+}
+
+.form-innerC input::placeholder {
+    color: #636060;
+
+
+}
+
+.innerBB-1::placeholder {
+    font-weight: bold;
+    color: #636060;
+    font-size: 16px;
+}
+
+.form-innerC select {
+    border: none;
+    width: 103%;
+    /* text-align: left; */
+    padding: 4px 0px;
+    font-size: 14px;
+    color: #636060;
+    /* background-color: red; */
+}
+
+.innerC-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(207, 92, 4); */
+    width: 40%;
+    padding: 4px 30px;
+    gap: 8px;
+
+}
+
+.innerC-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 60%;
+}
+
+.innerC-1Aa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: red; */
+    padding-top: 16%;
+    width: 69%;
+
+}
+
+.dateinput {
+    width: 39%;
+}
+
+.dateinput-head {
+    width: 40%;
+    /* background-color: antiquewhite; */
+
+}
+
+
+.innerC-1A {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: rgb(11, 170, 19); */
+    padding: 2px 20px;
+
+}
+
+.innerC-2 input {
+    font-weight: 500;
+}
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.form-innerD {
+    /* background-color: rgb(237, 252, 23); */
+    width: 88%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-innerD select {
+    border: none;
+}
+.innerCr span{
+    color: #636060;
+    font-size: 13px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.form-innerE {
+    /* background-color: rgb(237, 252, 23); */
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 20px;
+}
+
+.Form-inner-inside {
+    /* background-color: rgb(10, 153, 141); */
+    width: 94%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 2px soild  black;
+}
+
+.inside-a {
+    /* background-color: rgb(79, 33, 33); */
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    overflow-y: hidden;
+    border-bottom: 2px soild  black;
+
+
+}
+
+
+
+
+.inside-aa {
+    background-color: rgb(0, 0, 0);
+    width: 96%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inside-c {
+    /* background-color: rgb(219, 23, 23); */
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.add {
+    color: blue;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.remove {
+    color: white;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.remove:hover {
+    color: red;
+}
+
+.aa {
+    width: 20%;
+    height: 5vh;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 10px;
+}
+
+.a {
+    width: 10%;
+    height: 5vh;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.bb {
+
+    height: auto;
+
+    border: none;
+    width: 20%;
+    height: auto;
+    color: black;
+    font-size: 12px;
+
+}
+
+.bb::placeholder {
+    color: black;
+}
+
+.bbb {
+
+    height: 6vh;
+
+    border: none;
+    width: 21%;
+    height: auto;
+
+}
+
+.b {
+    width: 10%;
+    text-align: center;
+    border: none;
+
+
+}
+
+.b span {
+    font-size: 14px;
+}
+
+.b::placeholder {
+    color: black;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.form-innerF {
+    width: 85%;
+    height: 25vh;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(159, 11, 172); */
+}
+
+.inner-f {
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(63, 179, 5); */
+}
+
+.inner-f-a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: rgb(36, 18, 225); */
+}
+
+.inner-f-aa {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(200, 200, 205, 0.337);
+    padding: 5px 20px;
+}
+
+.inner-f-a span {
+    font-size: 13px;
+    color: #636060;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.form-innerG {
+    width: 97%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+    /* background-color: rgb(196, 181, 16); */
+    padding-top: 10px;
+}
+
+.form-innerG input {
+    width: 92%;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #636060;
+
+}
+
+.form-innerG input::placeholder {
+    color: #636060;
+    font-size: 12px;
+}
+
+
+.form-innerG textarea {
+    width: 92%;
+    border: none;
+    width: 92%;
+    border: none;
+
+    font-size: 14px;
+    color: #636060;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-innerG textarea::placeholder {
+    color: #636060;
+    font-size: 11px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.form-innerH {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+
+
+.form-innerH img {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/* * For Medium Screens (Tab
+lets & Laptops) */
+@media (max-width: 1024px) {
+    .formz {
+        /* background-color: rgb(199, 76, 76); */
+        width: 98%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgba(129, 123, 123, 0.607);
+        border-radius: 10px;
+        /* margin-top: 58%; */
+
+    }
+}
+
+
+/* For Small Screens (Mobile Devices) */
+@media (max-width: 768px) {
+
+    .formout {
+        width: 98%;
+        height: 100vh;
+        padding-left: 10px;
+    }
+
+    .form-innerC {
+        /* background-color: rgb(206, 146, 16); */
+        width: 99%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .formz {
+        background-color: rgb(255, 255, 255);
+        width: 98%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgba(129, 123, 123, 0.607);
+        border-radius: 10px;
+        /* margin-top: 58%; */
+
+    }
+    .inner-1{
+        /* background-color: antiquewhite; */
+        width: 45%;
+    }
+   
+
+    .innerC-1Aa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        /* background-color: red; */
+        padding-top: 16%;
+        width: 86%;
+
+    }
+
+}
+
+/* For Extra Small Screens (Small Phones) */
+@media (max-width: 480px) {
+
+    .formout {
+        /* background-color: aquamarine; */
+        width: 95%;
+        height: 100vh;
+
+    }
+
+    .form-innerB {
+        width: 89%;
+        /* background-color: greenyellow; */
+    }
+
+    .form-innerB input::placeholder {
+        font-size: 12px;
+        color: #636060;
+    }
+
+    .formz {
+        height: auto;
+
+    }
+
+    .form-innerH {
+        height: 18vh;
+    }
+
+    .form-innerG {
+        height: 8vh;
+    }
+
+    .form-innerA {
+        padding-top: 10px;
+        /* background-color: aqua; */
+        height: 12vh;
+        overflow-y: hidden;
+        width: 90%;
+    }
+
+    .inner-1 {
+        /* background-color: blue; */
+        width: 48%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .file{
+        height: 55px;
+        width: 60px;
+    }
+    .upload-inst {
+        width: 70px;
+        height: 30px;
+    }
+  
+
+    .tax {
+        font-size: 13px;
+        width: 80%;
+        height: 5vh;
+    }
+
+    .idd {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .innerC-1Aa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        /* background-color: red; */
+        padding-top: 16%;
+        width: 75%;
+
+    }
+
+    .innerC-1Aa input::placeholder {
+        font-size: 11px;
+    }
+
+    .innerC-1 input::placeholder {
+        font-size: 12px;
+    }
+
+    .innerC-1 input {
+        width: 150px;
+        /* background-color: aqua; */
+    }
+
+    .innerC-1 select {
+        width: 159px;
+        /* background-color: aqua; */
+    }
+
+    .form-innerC {
+        width: 90%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    .innerC-2 input {
+        width: 50%;
+        /* background-color: aliceblue; */
+    }
+
+
+
+    .innerCr span {
+        font-size: 12px;
+        /* background-color: red; */
+    }
+
+    .form-innerD {
+        /* background-color: rgb(237, 252, 23); */
+        width: 90%;
+
+    }
+
+    .dateinput {
+        /* background-color: red; */
+        width: 20%;
+    }
+
+    .dateinput-head::placeholder {
+        font-size: 10px;
+        /* background-color: red; */
+
+    }
+
+    .inside-aa {
+        width: 96%;
+
+    }
+
+    .inside-a {
+        width: 99%;
+    }
+
+    .aa {
+        font-size: 9px;
+    }
+
+    .a {
+        font-size: 9px;
+    }
+
+    .upload-preview {
+        width: 60px;
+        /* Removed quotes */
+        height: 60px;
+        /* Removed quotes */
+        object-fit: cover;
+        /* Corrected casing */
+        cursor: pointer;
+        border: 0px solid #ccc;
+        /* Closed the quotation for color */
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    
+}

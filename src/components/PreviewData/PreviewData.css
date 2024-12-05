@@ -1,0 +1,271 @@
+
+/* .Pre {
+    width: 98%;
+    height: auto;
+   
+
+} */
+
+
+.PreviewData {
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 15px;
+    gap: 6px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* display: none; */
+
+
+}
+
+/* ======================================== */
+
+.DataA {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.DataAA {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.DataAB {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 2px 8px;
+
+}
+
+
+.DSpan-A {
+    font-size: 19px;
+    font-weight: 700;
+    /* background-color: rgb(38, 116, 184); */
+    /* text-align: start; */
+}
+
+.DSpan-B {
+    font-size: 10px;
+}
+
+/* ======================================== */
+
+.DataB {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: auto;
+
+}
+
+.dataBA {
+    width: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.BA-span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.BB-span {
+    font-size: 10px;
+
+}
+
+/* ======================================== */
+.DataC {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dataBB {
+    /* background-color: rgb(196, 225, 48); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 2px;
+
+}
+
+.BA-span {
+    font-size: 10px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+/* ======================================== */
+.DataD {
+    /* background-color: rgb(111, 226, 23); */
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(221, 216, 216);
+}
+
+.DataDA {
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 4px 0px;
+}
+
+.DataDA th {
+    color: white;
+    font-size: 9px;
+}
+
+.DataDB {
+    width: 96%;
+    height: 18px;
+    /* background-color: rgb(98, 24, 24); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.DataDB td {
+    /* background-color: aqua; */
+    color: black;
+    font-size: 8px;
+    width: 10%;
+    /* padding: 4px 0px; */
+    text-align: center;
+}
+
+
+
+/* ======================================== */
+.DataE {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DataEA {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 5px;
+
+    padding: 3px;
+}
+
+.BB-span {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.BC-span {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+/* ======================================== */
+.DataF {
+    /* background-color: rgb(3, 159, 153); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DataFA {
+    width: 80%;
+    height: auto;
+    /* background-color: rgb(202, 21, 154); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+
+.FA-span {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.FB-span {
+    font-size: 11px;
+}
+
+/* ======================================== */
+
+
+
+@media only screen and (min-width:500px) and (max-width:750px) {
+    .PreviewData {
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 6px;
+        border: 1px solid gray;
+        border-radius: 10px;
+
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:500px) {
+    .PreviewData {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+
+        border: 1px solid gray;
+        border-radius: 10px;
+
+    }
+}

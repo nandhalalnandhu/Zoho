@@ -1,0 +1,404 @@
+.Preview {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    /* background-color: burlywood; */
+    padding-top: 10px;
+
+}
+
+/* ============================================ */
+
+.pA {
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 188, 188);
+
+}
+
+.pA span {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+/* ============================================ */
+
+.pB {
+    width: 100%;
+    padding: 10px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+
+.pB img {
+    height: 25px;
+    padding-left: 5%;
+}
+
+/* ============================================ */
+
+.pC {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(108, 200, 42); */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 188, 188);
+    justify-content: center;
+    padding: 5px;
+
+
+}
+
+.pC img {
+    height: 200px;
+}
+
+/* ============================================ */
+
+.pD {
+    width: 90%;
+    padding: 15px;
+    /* background-color: rgb(108, 200, 42); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 188, 188);
+
+}
+.pDD{
+    display: none;
+}
+.btA {
+    padding: 2.2% 4%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(64, 141, 251);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+
+.eye {
+    font-size: 20px;
+}
+
+.btB {
+    padding: 3.5% 7%;
+    border: none;
+    border-radius: 5px;
+
+
+}
+.printbtn{
+    padding: 2.6% 7%;
+    border: none;
+    border-radius: 5px;
+}
+
+.printicon{
+    font-size: 17px;
+}
+.printbtn:hover {
+    background-color: rgb(64, 141, 251);
+    color: white;
+}
+
+.btA:hover {
+    background-color: rgb(222, 224, 228);
+    color: rgb(3, 3, 3);
+}
+
+.btB:hover {
+    background-color: rgb(64, 141, 251);
+    color: white;
+}
+
+/* ============================================ */
+
+.pF {
+    width: 90%;
+    height: auto;
+    /* background-color: rgb(108, 200, 42); */
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+}
+
+
+
+
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Make sure it appears above other elements */
+}
+
+.modal {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 60%;
+    /* Responsive width */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.modal input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.modal input[type="text"]:focus {
+    border-color: #007bff;
+    /* Change to a color of your choice */
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    gap: 10px;
+}
+
+.modal-buttons button {
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-buttons button:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
+
+.modal-buttons button:last-child {
+    background-color: #6c757d;
+    /* Cancel button color */
+}
+
+.modal-buttons button:last-child:hover {
+    background-color: #5a6268;
+    /* Darker shade for hover effect */
+}
+
+
+
+
+
+
+/* From Uiverse.io by Tsiangana */ 
+.button {
+    width: 140px;
+    height: 45px;
+    border-radius: 30em;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1;
+    background: #ff135a;
+    border: 3px solid #fff;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    transition: 0.6s ease-in;
+  }
+  
+  .button:hover {
+    background: #fff;
+  }
+  
+  .button .two {
+    display: none;
+  }
+  
+  .button::before {
+    content: "";
+    width: 0;
+    height: 50px;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+  }
+  
+  .button:hover::before {
+    width: 140px;
+    transition: 3s linear;
+  }
+  
+  .button:hover .one {
+    display: none;
+  }
+  
+  .button:hover .two {
+    display: inline;
+  }
+  
+
+
+/* +++++++++++++POPUP2+++++++++++++++++++ */
+
+
+
+.modall {
+    /* background: #ffffff; */
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:900px) and (max-width:1300px) {
+    .modal {
+        width: 25%;
+    }
+    .modall {
+        /* background: #ffffff; */
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:900px) {
+
+    .modall {
+        /* background: #ffffff; */
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .modal {
+        width: 45%;
+    }
+
+    .pB,
+    .pC,
+    .pF,
+    .pA {
+        display: none;
+    }
+
+    .pD {
+        /* background-color: antiquewhite; */
+        width: 100%;
+        border-bottom: none;
+        padding: 8px;
+        /* gap: 40%; */
+    }
+
+    .btA {
+        padding: 1.4% 2%;
+    }
+
+    .btB {
+        padding: 2% 6%;
+    }
+    .printbtn{
+        padding: 2% 4%; 
+    }
+    .Preview{
+        height: auto;
+        /* background-color: rebeccapurple; */
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:500px) {
+    .Preview{
+        height: auto;
+    }
+    .btA {
+        padding: 1% 3%;
+    }
+
+    .btB {
+        padding: 2% 6%;
+    }
+    .modall {
+        /* background: #ffffff; */
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .pD{
+        display: none;
+    }
+
+    .pDD{
+        display: flex;
+        width: 100%;
+        /* background-color: #a5b9cf; */
+       padding: 8px 10px;
+       gap: 10px
+       ;
+    }
+    .printbtn{
+        padding: 2.3% 4%; 
+    }
+}
